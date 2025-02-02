@@ -2,7 +2,7 @@
 
 ## Projects
 
-🎼 **Music Analytics Project**  
+🎼 **Music Analytics**  
 Solution to process large-scale music streaming analytics enabling detailed insights into song popularity, emerging artist trends, and user engagement. The project parses raw user activity and song metadata, applies distributed transformations with Apache Spark, and orchestrates the data pipelines using Apache Airflow. The data is structured in PostgreSQL for testing and later loaded into Amazon Redshift for high-performance analytical querying.
 
 🍷 **Wine Chemical Analysis**  
