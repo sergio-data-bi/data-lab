@@ -15,7 +15,7 @@
 - Analysis of user behavior and consumption trends
 - Data preparation for recommendation systems
 
-**Data Model**  
+**Data Model:**  
 The solution implements a star schema with one fact table (`songplays`) and four supporting dimensions (`songs`, `artists`, `users`, `time`), all optimized for analytic queries on user behavior and song popularity. Data first lands in staging tables (`staging_events`, `staging_songs`) and is then transformed into the final star schema, supporting scalable analytics on user engagement, trends, and recommendations.
 
 **Tech Stack:**  
