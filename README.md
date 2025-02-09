@@ -2,6 +2,34 @@
 
 ## Projects
 
+## 📊 Firebase Retention Analysis  
+[Project Repository](./firebase-retention-analysis)  
+
+**Objective:** Analyze user retention trends from Firebase Analytics event data using **BigQuery**. The project computes **daily and monthly retention rates** to evaluate user engagement and **optimize app performance**.  
+
+**Key Metrics:**  
+- **Daily Retention:** Tracks user activity for **30 days** post-signup  
+- **Monthly Retention:** Tracks user activity for **12 months** post-signup  
+- **First Open Event Detection:** Identifies new users based on their first interaction  
+- **Time Zone Adjustment:** Converts event timestamps to **local time**  
+
+**Data Model:**  
+The solution processes **raw Firebase event data**, normalizes timestamps, and calculates **cohort-based retention metrics**. Events are extracted from multiple daily tables (`events_YYYYMMDD`) using `_TABLE_SUFFIX` for optimized querying. The analysis uses `event_name`, `event_timestamp` and `user_pseudo_id`.
+
+Key data points include:
+- **`event_name`:** Identifies the type of event.  
+  - `first_open` is used to determine a user's signup date.
+- **`event_timestamp`:** A microsecond timestamp that is normalized to a local DATE.
+- **`user_pseudo_id`:** A unique identifier for each user.
+
+**Tech Stack:**  
+- **BigQuery SQL** – Data querying and transformation  
+- **Google Cloud Platform (GCP)** – Cloud storage and processing  
+
+**Source:** [Firebase Analytics Raw Event Export](https://firebase.google.com/docs/projects/bigquery-export)  
+
+
+---
 ## 🎼 Music Analytics
 [Project Repository](./Music%20Analytics)  
 
