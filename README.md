@@ -3,7 +3,7 @@
 ## Projects
 
 ## 📊 Firebase Retention Analysis  
-[Project Repository](./firebase-retention-analysis)  
+[Project Repository](./Firebase%20Retention%20Analysis)  
 
 **Objective:** Analyze user retention trends from Firebase Analytics event data using **BigQuery**. The project computes **daily and monthly retention rates** to evaluate user engagement and **optimize app performance**.  
 
