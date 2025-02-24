@@ -52,8 +52,8 @@ The solution implements a star schema with one fact table (`songplays`) and four
 - **Apache Spark** – Large-scale data processing
 - **Apache Airflow** – Pipeline orchestration and scheduling
 - **PostgreSQL** – Local testing database
-- **Amazon Redshift** – High-performance analytics with clustering
-- **Amazon S3** – Scalable Cloud data storage
+- **AWS Redshift** – High-performance analytics with clustering
+- **AWS S3** – Scalable Cloud data storage
 
 **Source:** [Million Song Dataset (MSD)](http://millionsongdataset.com/)  
 
