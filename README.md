@@ -30,7 +30,7 @@ Key data points include:
 
 
 ---
-## 🎼 Music Analytics
+## 🎼 Music Analytics AWS PySpark ETL Pipeline
 [Project Repository](./Music%20Analytics%20AWS%20PySpark%20ETL%20Pipeline)  
 
 **Objective:** Transformed raw data from the Million Song Dataset and stored it in a cloud-based environment to analyze user engagement, song popularity, and emerging artist trends.
