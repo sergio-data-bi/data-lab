@@ -3,7 +3,7 @@
 ## Projects
 
 ## 📊 Firebase Retention Analysis  
-[Project Repository](./firebase-retention-analysis)  
+[Project Repository](./Firebase%20Retention%20Analysis)  
 
 **Objective:** Analyze user retention trends from Firebase Analytics event data using **BigQuery**. The project computes **daily and monthly retention rates** to evaluate user engagement and **optimize app performance**.  
 
@@ -26,7 +26,7 @@ Key data points include:
 - **BigQuery SQL** – Data querying and transformation  
 - **Google Cloud Platform (GCP)** – Cloud storage and processing  
 
-**Source:** [Firebase Analytics Raw Event Export](https://firebase.google.com/docs/projects/bigquery-export)  
+**Official docs:** [Firebase Analytics Raw Event Export](https://firebase.google.com/docs/projects/bigquery-export)  
 
 
 ---
@@ -52,8 +52,8 @@ The solution implements a star schema with one fact table (`songplays`) and four
 - **Apache Spark** – Large-scale data processing
 - **Apache Airflow** – Pipeline orchestration and scheduling
 - **PostgreSQL** – Local testing database
-- **Amazon Redshift** – High-performance analytics with clustering
-- **Amazon S3** – Scalable Cloud data storage
+- **AWS Redshift** – High-performance analytics with clustering
+- **AWS S3** – Scalable Cloud data storage
 
 **Source:** [Million Song Dataset (MSD)](http://millionsongdataset.com/)  
 
@@ -72,6 +72,7 @@ The solution implements a star schema with one fact table (`songplays`) and four
 - **R** – Statistical computing  
 - **ggplot2, corrplot** – Data visualization  
 - **Regression models & clustering** – Pattern identification  
-- **Wine quality dataset** – 1,599 samples, 11 chemical variables  
+- **Wine quality dataset** – 1,599 samples, 11 chemical variables
+
 ## License
 This repository's contents are shared for informational purposes only, with all rights retained by the author.
